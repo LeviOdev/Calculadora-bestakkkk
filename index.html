@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-900">
+<div class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-gray-700 rounded-2xl w-100 h-135 p-4">
+  <input type="text" class="bg-white m-4 w-85 h-20 text-4xl rounded-2xl px-4" id="txtInpt" readonly>
+  
+  <!-- Grid de botões (4 colunas) -->
+  <div class="grid grid-cols-4 gap-2 mt-4">
+    <!-- Linha 1: 7 8 9 + -->
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">7</button>
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">8</button>
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">9</button>
+    <button class="bg-orange-400 text-center py-7 rounded-3xl text-white text-2xl hover:bg-orange-300 transition">+</button>
+    
+    <!-- Linha 2: 4 5 6 - -->
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">4</button>
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">5</button>
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">6</button>
+    <button class="bg-orange-400 text-center py-7 rounded-3xl text-white text-2xl hover:bg-orange-300 transition">-</button>
+    
+    <!-- Linha 3: 1 2 3 = -->
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">1</button>
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">2</button>
+    <button class="bg-gray-600 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">3</button>
+    <button class="bg-orange-400 text-center py-7 rounded-3xl text-white text-2xl hover:bg-orange-300 transition">=</button>
+    
+    <!-- Linha 4: 0 C (botão 0 ocupa 2 colunas para simular largura maior) -->
+    <button class="bg-gray-600 col-span-3 text-center py-7 rounded-3xl text-white text-2xl hover:bg-gray-500 transition">0</button>
+    <input type="button" id="apaga" class="cursor-pointer bg-orange-400 text-center py-7 rounded-3xl text-white text-2xl hover:bg-orange-300 transition" value="C">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
