@@ -6,7 +6,8 @@ Mas ai eu pensei, pq não upar né? =D
 
 # Sobre o Projeto
 Usei html, Tailwindcss e js pra brincar nessa budega veia (incrivelmente ruim)
-Ta funcionando pra fazer contas e etc... 
+
+Ta funcionando pra fazer "contas" e hello world... 
 Porém o "C", que seria pra limpar o input ta todo esquisitinho
 # Recomendações...
 1. não usar para fazer contas de casa
